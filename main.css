@@ -1,0 +1,157 @@
+body {
+    background-color: #636262;
+    background-image:url(images/grey.jpg);
+    
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+#header {
+    
+    height:45px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #3a3838;
+    
+    
+    
+}
+
+#container2 {
+    margin-left:260px; 
+}
+
+.header-link {
+    
+    font-family: "Times New Roman", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-decoration-line: none;
+   
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 175px;
+  position: absolute;
+  height: 100%;
+  overflow: auto;
+
+
+}
+
+.img-center {
+    display: block;
+    margin-left: 5px;
+    margin-top: 10%;
+    border-radius: 10%;
+    width: 160px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+
+.sb-name {
+    font-family: "Times New Roman", sans-serif;
+    font-size: 16px;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 5px;
+    color: #ffffff;
+}
+
+.sb-text {
+    font-family: "Times New Roman", sans-serif;
+    font-size: 10px;
+    text-align: left;
+    margin-left: 5px;
+    color: #ffffff;
+}
+
+.sb-links {
+    margin-left: 5px;
+    color: black;
+}
+
+.a-image > img {
+    opacity: 1;
+    backface-visibility: hidden;
+    height: auto;
+    width: 100%;
+    
+}
+
+.a-text {
+
+  color: white;
+  font-size: 30px;
+  position: fixed;
+  padding: 10px;
+  text-align: justify;
+  margin: auto;
+  font-weight: 900;
+  
+    
+    
+}
+
+.a-middle {
+  transition: .5s ease;
+  opacity: 0;
+  width: 13%;
+  height: 25%;
+  text-align:center;
+  line-height: 2;
+}
+
+
+.a-image:hover  {
+    opacity: 0.5;
+    transition: .5s ease;
+}
+.a-middle:hover {
+    opacity: 1;
+}
+
+.a-image {
+    float: left;
+    line-height: 0;
+    display:inline-block;
+    width: 20%;
+    background-color: ghostwhite;
+}
+
+#contact {
+    display: none;
+    background-color: #636262;
+    margin-top: -20px;
+    color: black;
+    text-align: center;
+    height: 600px;
+    width: auto;
+    margin: 0;
+    
+}
+.contact-img {
+    width: 100%;
+    height: 600px;
+}
+
+.name-text {
+    width: 80%;
+    height: 75%;
+    display: inline-block; 
+    border: 1px solid black;
+}
